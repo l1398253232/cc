@@ -1,0 +1,113 @@
+@import url(reset.css);
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.89rem;
+  background: #fa3f52;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  text-align: center;
+}
+.container header h3 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 0.33rem;
+  color: #fff;
+  font-weight: normal;
+  background: url(../img/fx.png) no-repeat 0.4rem center;
+  background-size: 0.34rem;
+}
+.container section {
+  -webkit-box-flex: 1;
+  background: #eeeeee;
+}
+.container section .pic {
+  width: 100%;
+  height: 1.2rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e2e2;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container section .pic .pi {
+  -webkit-box-flex: 1;
+  font-size: 0.28rem;
+  padding-left: 0.4rem;
+  color: #424242;
+}
+.container section .pic .tx .xg {
+  width: 0.97rem;
+  padding-right: 0.4rem;
+}
+.container section .pic .tx .bak {
+  width: 0.14rem;
+  padding-right: 0.4rem;
+}
+.container section .pic .nc {
+  font-size: 0.25rem;
+  padding-right: 0.4rem;
+  color: #9a9a9a;
+}
+.ziliao {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999999;
+}
+.ziliao .bi {
+  width: 4.5rem;
+  height: 2.6rem;
+  background: #ffffff;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.25rem;
+  top: 50%;
+  margin-top: -3.2rem;
+  border-radius: 0.15rem;
+}
+.ziliao .bi .top {
+  width: 3.5rem;
+  height: 0.85rem;
+  background: #ffffff;
+  margin: 0 0.5rem;
+  -webkit-box-align: center;
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #f2f2f2;
+}
+.ziliao .bi .top .xiao {
+  font-size: 0.3rem;
+  color: #000000;
+}
+.ziliao .bi .top12 {
+  width: 3.5rem;
+  height: 0.85rem;
+  background: #ffffff;
+  margin: 0 0.5rem;
+  -webkit-box-align: center;
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.ziliao .bi .top12 .xiao {
+  font-size: 0.3rem;
+  color: #000000;
+}
